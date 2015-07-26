@@ -1371,12 +1371,11 @@ void lcd_init()
 }
 
 void lcd_welcome_message() 
-{  lcd.setCursor(0,0);
-   lcd_printPGM(PSTR("Hi Creator "));                       
-   lcd.setCursor(0,2);
+{                        
+   lcd.setCursor(0,1);
    lcd_printPGM(PSTR("     Welcome to    "));
-   lcd.setCursor(0,3);
-   lcd_printPGM(PSTR("  ---CreatorBot--- "));
+   lcd.setCursor(0,2);
+   lcd_printPGM(PSTR("        Lemon      "));
    delay(1000);
 
    int C,R;

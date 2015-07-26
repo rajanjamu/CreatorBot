@@ -43,7 +43,7 @@
 	#ifdef CUSTOM_MENDEL_NAME
 		#define MACHINE_NAME CUSTOM_MENDEL_NAME
 	#else
-		#define MACHINE_NAME "CreatorBot"
+		#define MACHINE_NAME "Lemon"
 	#endif
 
 // Default firmware set to Mendel
